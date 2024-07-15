@@ -351,4 +351,73 @@ main {
     object-position: top;
 }
 
+#updates{
+    height: 100vh;
+    padding: 3vw  4vw;
+    /* background-color: red; */
+}
+
+#updates h1{
+    text-transform: uppercase;
+    font-size: 2vw;
+    text-align: center;
+    padding: 2vw;
+}
+
+#update{
+    height: 15vh;
+    width: 100%;
+    padding: 2vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top : 2px solid #131313;
+    position: relative;
+}
+
+
+#update img{
+    height: 300px;
+    width: 400px;
+    border-radius: 30%;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: center;
+    transition: all ease 0.3s;
+    opacity: 0;
+}
+
+#update:hover img{
+    left: 25%;
+    opacity: 1;
+}
+#update:hover {
+    background-color: #131313;
+    color: #F8F8F8;
+    transition: all ease 0.6s;
+}
+
+#updateList div:nth-child(4){
+    border-bottom: 2px solid #131313;
+}
+
+#update h4{
+    width: 20%;
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+#update h2{
+    width: 50%;
+    text-align: start;
+}
+#update span{
+    letter-spacing: -2px;
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
 
